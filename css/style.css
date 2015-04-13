@@ -1,0 +1,272 @@
+body{
+  font-family:microsoft yahei;
+  color:#808080;
+  font-size:15px;
+  line-height:26px;
+  overflow-x: hidden;
+}
+
+.navbar-default{
+  background-color: #fff;
+  border:0px;
+}
+.navbar {
+  margin-bottom:0px;
+}
+
+.navbar-toggle {
+  margin-top: 30px;
+}
+
+.navbar-collapse {
+  max-height: 420px;
+  padding-right: -15px;
+  padding-left: -15px;
+}
+
+#nav-right{
+  float:right;
+  border-right: 1px solid #e5e5e5;
+}
+
+#nav-right a{
+  color:#808080;
+  width:137px;
+  height:100px;
+  text-align:center;
+  padding-top:40px;
+  border-left: 1px solid #e5e5e5;
+  background-color:transparent;
+}
+
+#nav-right a:hover{
+  color:#e82b5d;
+  background:none;
+}
+
+#nav-right .active a{
+  border-bottom:2px solid #e82b5d;
+  color:#e82b5d;
+}
+
+.banner{
+  height:660px;
+  background:url(../img/banner.png);
+  background-position: 50% 50%;
+  text-align:center;
+}
+
+a.button{
+  display:inline-block;
+  margin:490px auto;
+  text-decoration:none;
+  color:white;
+  padding: 14px 40px;
+  border-radius: 2px;
+  background-color: rgb(232, 43, 93);
+  font-size: 14px;
+  transition: background-color 300ms ease;
+  -webkit-transition: background-color 300ms ease;
+}
+
+a.button:hover{
+  background-color: rgb(191,36,78);
+}
+
+.product{
+  text-align:center;
+  padding:100px 0px;
+}
+
+.underline{
+  width:90px;
+  height:2px;
+  background:#e82b5d;
+  margin:10px auto 45px;
+}
+
+.row.icon .icon{
+  width: 222px;
+  height: 222px;
+  margin-right: auto;
+  margin-bottom: 45px;
+  margin-left: auto;
+  padding-top: 59px;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-radius: 200px;
+  background-color: rgb(245, 245, 245);
+  transition: background-color 300ms ease, padding 300ms ease;
+  -webkit-transition: background-color 300ms ease, padding 300ms ease;
+}
+
+.row.icon .icon:hover{
+  background-color:#e82b5d;
+  padding:50px 20px 0px 20px;
+}
+
+.row.text a{
+  color:#e82b5d
+}
+
+.our-product{
+  padding:160px 0px 60px 0px;
+  background:#27292C;
+}
+
+.our-product .underline{
+  margin: 10px 0px 32px 0px;
+}
+
+img.function{
+  margin:38px 0px 49px 0px;
+  display:block;
+}
+
+.our-product a.button{
+  margin:0px 20px 0px 0px;
+}
+
+.our-product a.button.knowmore{
+  margin-top:20px;
+  background:#2B88E8;
+}
+
+.our-product a.button.knowmore:hover{
+  background:#1f66ad;
+}
+
+.fireball-ui{
+  margin-top:-90px;
+}
+
+.container-fluid.jobs{
+  margin: 100px 0px;
+  text-align: center;
+}
+
+.jobs .underline{
+  margin:5px auto 45px auto;
+}
+
+.row.jobs{
+  max-width:950px;
+  margin: 0px auto;
+}
+
+.jobs a{
+  color:#808080;
+  text-decoration:none;
+  max-width:248px;
+  max-height:350px;
+  display: block;
+  border: 1px solid #e5e5e5;
+  padding: 100px 10px;
+  margin:  0px auto;
+  transition: border 500ms ease;
+  -webkit-transition: border 500ms ease;
+}
+
+.jobs a:hover{
+  border: 1px solid #e82b5d;
+}
+
+.icon h4{
+  font-family:Microsoft yahei;
+  margin: 45px 0px 10px 0px;
+  font-weight:bold;
+  font-size:16px;
+  color:#333;
+}
+
+.footer{
+  background:#27292C;
+  padding:100px 0px 90px 0px;
+}
+
+.footer .underline{
+  margin: 10px 0px 32px;
+}
+
+a.social-icon{
+  text-align:center;
+  width: 72px;
+  height: 72px;
+  margin-top: 0px;
+  margin-right: 22px;
+  padding-top: 21px;
+  float: left;
+  border-radius: 72px;
+  background-color: rgb(49, 52, 56);
+  transition: background-color 300ms ease;
+  -webkit-transition: background-color 300ms ease;
+}
+
+a.social-icon:hover{
+  background-color:#4c5157;
+}
+
+.row.sitemap{
+  margin-top:40px;
+}
+
+a.sitemap{
+  color:#808080;
+  text-decoration:none;
+  margin-left:20px;
+  transition:color 300ms ease;
+  -webkit-transition: color 300ms ease;
+}
+
+a.sitemap:hover{
+  color:#e5e5e5;
+}
+
+.copyright{
+  padding-top:6px;
+  font-size:12px;
+}
+
+
+
+
+
+@media (max-width: 1000px){
+
+img.fireball-ui {
+  display: none;
+}
+
+#nav-right a{
+  color:#808080;
+  width:100px;
+  height:100px;
+  text-align:center;
+  padding-top:40px;
+  border-left: 1px solid #e5e5e5;
+  background-color:transparent;
+}
+}
+
+@media (max-width:768px){
+
+.footer{
+  text-align:center;
+}
+
+a.social-icon{
+  display:inline-block;
+  float:none;
+  margin: 5px 10px;
+}
+
+.footer .underline{
+  margin: 10px auto 32px;
+}
+
+.firebox-logo{
+  display:block;
+  margin:0px auto;
+}
+
+}
